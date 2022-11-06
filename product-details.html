@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL Products from Redstore</title>
+    <link rel="apple-touch-icon" href="images/app-store.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+        integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0a01e841e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container ">
+        <navbar>
+            <div class="logo">
+              <a href="index.html"><img src="images/logo.png" width="125px" alt=""> </a>
+            </div>
+            <nav>
+                <ul id="menu-items">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="login-page.html">Account</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a href="shopping-cart-page.html"><img src="images/cart.png" class="cart-img" width="30px" alt="cart"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menuToggle()" alt="menu">
+            </div>
+
+        </navbar>
+    </div>
+
+    <!-- ============= single product details ====================== -->
+
+    <div class="container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" width="100%" class="SmallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" width="100%" class="SmallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" width="100%" class="SmallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" width="100%" class="SmallImg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / Tshirt</p>
+                <h1>Red Printed Tshirt</h1>
+                <h4>$49.99</h4>
+                <select name="" id="">
+                    <option>Select size</option>
+                    <option>XXl</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input class="input-number" type="number" value="1">
+                <a href="#" class="btn">Add to Cart</a>
+
+                <h3>Product details <i class="fa fa-indent"></i> </h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolorum quibusdam. Tenetur repudiandae
+                    voluptas voluptates molestiae omnis minus, enim libero.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ========= title ============== -->
+    <div class="container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+
+    <!-- ============== products ================= -->
+    <div class="categories fetured-product">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$49.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$49.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$49.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$49.99</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- ================ Footer ===================== -->
+    <footer>
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download app for android and ios in mobile</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png" alt="brand logo">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, esse.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li><a href="#">Coupons</a></li>
+                    <li><a href="#">Blog Post</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Join Affliate</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li class="facebook">
+                        <i class="fa-brands fa-square-facebook "></i>
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li class="Twitter">
+                        <i class="fa-brands fa-twitter "></i>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li class="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li class="Youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                        <a href="#">YouTube</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">CopyRight &copy; - Nikunj Vadher</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
